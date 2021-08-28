@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color:rgba(14, 11, 11, 0.822);
+    --white:white;
+    --border-color:rgb(36, 36, 90);
+}
+div{
+   height: 100vh;
+    margin:auto;
+    background-color: var(--background-color);
+    text-align:center;
+    padding:5.5rem 0;
+}
+h1{
+    padding:1rem 0;
+    color: var(--white);
+    font-weight: bold;
+}
+div input{
+    padding:0.2rem 0.5rem;
+    margin:1.5rem 0;
+    width:200px;
+}
+div button{
+    padding:0.3rem 0.6rem;
+    cursor: pointer;
+    border:none;
+}
+div h2{
+    margin:2rem 0;
+    color: var(--white)
+}
